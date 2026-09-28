@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteHube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>BiteHube</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Delicious Food, Made or You</h2>
+            <p>Fresh ingredients, amazing flavors, and meals.
+                 made with love</p>
+            <a href="#" class="hero-button">Order Now</a>
+        </div>
+    </section>
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-card">
+            <img src="burger.jpeg" alt="no">    
+            <h3>Classic Burger</h3>
+            <p> Juicy beef burger wiht fresh vegetabels.</p>
+            <span>8$</span>
+            <button>Order Now</button>
+        </div>
+        <div class="menu-card">
+            <img src="chicken-burger.jpeg" alt="no">
+            <h3>Chicken Burger</h3>
+            <p>Crispy chicken with fresh lettuce and sauce.</p>
+            <span>7$</span>
+            <button>Order Now</button>
+        </div>
+        <div class="menu-card">
+            <img src="fries.jpeg" alt="">
+            <h3>French Fries</h3>
+            <p>Crispy golden fries with special seasoning.</p>
+            <span>4$</span>
+            <button>Order Now</button>
+        </div>
+    </div>
+    </section>
+    <section class="cart">
+        <h2>Your Order</h2>
+        <div id="cart-items"></div>
+        <h3>Total: <span id="total">0$</span>
+        </h3>
+        <button class="checkout-btn">Checkout</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
